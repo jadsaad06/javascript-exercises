@@ -1,7 +1,11 @@
 const leapYears = function(year) {
+    let isLeapYear = false;
+
     if(year % 400 == 0 || year % 4 == 0){
-        return true;
+        isLeapYear = true;
     }
+
+    return isLeapYear;
 };
 
 // Do not edit below this line
